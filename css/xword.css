@@ -1,3 +1,4 @@
+@import url(fonts/clear-sans.css);
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -187,7 +188,7 @@ body {
     border: none;
     width: 300px;
     font-size: 30px;
-    font-family: Bree serif;
+     font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
 }
 #url-text {
     display: none;
