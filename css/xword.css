@@ -133,8 +133,9 @@ table {
 
 body {
     background-color: #EEEEEE;
-    font-family: bree serif, arial!important;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif! important;
 }
+
 #title-bar {
     width: 100%;
     background-color: black;
@@ -156,7 +157,7 @@ body {
     margin-right: auto;
     display: table;
     padding: 20px;
-    font-family: bree serif, arial!important;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif!important;
 }
 #generate {
     display: block;
@@ -188,7 +189,7 @@ body {
     border: none;
     width: 300px;
     font-size: 30px;
-     font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+     font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif!important;
 }
 #url-text {
     display: none;
