@@ -91,8 +91,15 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+	
 }
 /* HTML5 display-role reset for older browsers */
+
+h1 {
+    font-size: 40px;
+}
+
+
 
 article,
 aside,
@@ -109,6 +116,7 @@ section {
 }
 body {
     line-height: 1;
+
 }
 ol,
 ul {
@@ -134,14 +142,17 @@ table {
 body {
     background-color: #EEEEEE;
     font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif! important;
+	
 }
 
 #title-bar {
     width: 100%;
     background-color: black;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	
     padding: 10px;
     color: #CCCCCC;
+	
 }
 #title-bar a {
     color: #CCCCCC;

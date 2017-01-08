@@ -3,34 +3,40 @@
 
 <head>
     <link rel="stylesheet" href="css/xword.css" />
+	  <link rel="shortcut icon" href="favicon.ico">
+
     <script data-main="scripts/main" src="scripts/require.js"></script>
     <link href="http://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css">
 </head>
 
 <body>
     <div id="title-bar">
-       
+	
+    <center>
+	
+	<h1> Gincana TAD </h1>  
+<h2> Crosswords </h2>	</center>      
     </div>
     <div id="main">
-        <button name="save-for-later" id="save-for-later">Save For Later</button>
-        <button name="finish" id="finish">Finish</button>
+        <button name="save-for-later" id="save-for-later">Guarde para Depois</button>
+        <button name="finish" id="finish">Finalize</button>
         <div id="url"></div>
         <input type="text" id="url-text"></textarea>
         <div id="xword2">
         </div>
         <div id="across-clues-beneath" class="clue">
-            <h3>Across</h3>
+            <h3>Vertical</h3>
             <ol></ol>
         </div>
         <div id="down-clues"  class="clue">
-            <h3>Down</h3>
+            <h3>Horizontal</h3>
             <ol></ol>
         </div>
         <div id="clue-entry">
-            <div id="enter-clues">Enter Clues</div>
-            <div id="clue-entry-across">Across:</div>
-            <div id="clue-entry-down">Down:</div>
-            <button name="generate" id="generate">Generate</button>
+            <div id="enter-clues">Coloque as dicas</div>
+            <div id="clue-entry-across">Vertical:</div>
+            <div id="clue-entry-down">Horizontal:</div>
+            <button name="generate" id="generate">Gerar</button>
         </div>
     <div id="dim-background"></div>
 </body>
