@@ -35,7 +35,7 @@ define(function (require) {
                     y: square.offsetY,
                     fontSize: 30,
                     fill: viewProperties.SELECTED_COLOUR,
-                    fontFamily: 'Bree Serif',
+                    fontFamily: 'Calibri',
                     width: sq.getWidth(),
                     align: 'center',
                     sq: sq,
